@@ -9,7 +9,7 @@ const NFT_COLLECTION_SYMBOL = 'RMRK-TEST-NFT';
 
 export const mint = async () => {
   try {
-    console.log('MINT KANARIA GENESIS BIRDS START -------');
+    console.log('MINT DEMO NFTs START -------');
     await cryptoWaitReady();
     const accounts = getKeys();
     const phrase = process.env.MNEMONIC_PHRASE;
