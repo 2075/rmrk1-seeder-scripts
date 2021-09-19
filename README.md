@@ -14,9 +14,10 @@ Collection of seeder scripts for RMRK1
 - Fetch using rmrk-tools and save output to `dumps-unconsolidated.json`
 
 Optionally pass block range with
-
 `yarn fetch --prefixes=0x726d726b,0x524d524b --append=dumps-unconsolidated.json --from=8949643 --to=8950000 -ws=wss://kusama-rpc.polkadot.io`
 
+It is recommended to first test your script on local node, therefore connect to local node wss url
+`yarn fetch --prefixes=0x726d726b,0x524d524b --append=dumps-unconsolidated.json --ws=ws://localhost:9944`
 
 ## Consolidate blocks
 
