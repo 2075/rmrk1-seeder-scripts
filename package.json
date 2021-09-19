@@ -1,0 +1,30 @@
+{
+  "name": "rmrk1-seeder-scripts",
+  "version": "1.0.0",
+  "main": "scripts/seeder.ts",
+  "repository": "git@github.com:Yuripetusko/rmrk1-seeder-scripts",
+  "author": "Yuri <yuripetusko@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "metadata:pin": "ts-node ./cli/run-pin-metadata.ts",
+    "seed:demo": "ts-node ./cli/run-seed-nfts.ts",
+    "fetch": "rmrk-tools-fetch",
+    "consolidate": "rmrk-tools-consolidate"
+  },
+  "dependencies": {
+    "@pinata/sdk": "^1.1.23",
+    "@polkadot/api": "^5.3.2",
+    "@polkadot/extension-dapp": "^0.39.2",
+    "@polkadot/keyring": "^7.1.1",
+    "@polkadot/util-crypto": "^7.1.1",
+    "@polkadot/x-randomvalues": "^7.1.1",
+    "@types/node": "^16.3.3",
+    "dotenv": "^10.0.0",
+    "p-limit": "^3.1.0",
+    "prettier": "^2.3.2",
+    "rmrk-tools": "1.0.4",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5",
+    "walk-sync": "^3.0.0"
+  }
+}
