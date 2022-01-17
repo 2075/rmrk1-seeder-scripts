@@ -21,5 +21,5 @@ It is recommended to first test your script on local node, therefore connect to 
 
 ## Consolidate blocks
 
-`yarn consolidate --json=dumps-unconsolidated.json -ws=wss://kusama-rpc.polkadot.io`
+`yarn consolidate --json=dumps-unconsolidated.json --ws=wss://kusama-rpc.polkadot.io`
 - Consolidate `dumps-unconsolidated.json` using rmrk-tools
